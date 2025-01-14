@@ -2,8 +2,8 @@ import cv2
 import os
 import numpy as np
 
-folder_in = 'dataset\\raw data\\blind\\batch 5'
-folder_out = 'dataset\\additional data\\blind\\batch 5'
+folder_in = #input folder 
+folder_out = #output folder
 
 shift_value = 300
 
