@@ -2,8 +2,8 @@ import os
 import cv2
 import numpy as np
 
-path = 'dataset\\raw data\\blind\\batch 5\\blind (205).mp4'
-folder_path = 'dataset\\raw data\\processed'
+path = #input file
+folder_path = #output file
 
 cap = cv2.VideoCapture(path)
 
