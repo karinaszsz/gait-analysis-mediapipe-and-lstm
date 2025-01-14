@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 
-video_path = 'dataset\\raw data\\blind\\batch 5\\blind (239).mp4'
+video_path = #input file
 
 frame_count = 0
 
