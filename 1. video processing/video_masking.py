@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-video_path = 'dataset\\test_data\\dataset(2).mp4'
+video_path = #video input path
 
 cap = cv2.VideoCapture(video_path)
 ret, frame = cap.read()
