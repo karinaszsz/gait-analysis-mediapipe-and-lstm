@@ -66,8 +66,8 @@ lk_params = dict(winSize = (15, 15),
 
 color = np.random.randint(0, 255, (100, 3))
 
-file_path = 'dataset\\raw data\\blind\\batch 5\\blind (238).mp4'
-folder_path = 'dataset\\raw data\\processed'
+file_path = #input file
+folder_path = #output folder
 
 cap = cv2.VideoCapture(file_path)
 ret, first_frame = cap.read()
