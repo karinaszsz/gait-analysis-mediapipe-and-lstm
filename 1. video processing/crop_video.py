@@ -75,10 +75,10 @@ frame_h, frame_w, _ = first_frame.shape
 
 fps = cap.get(cv2.CAP_PROP_FPS)
 
-# define for video saved output
+# define output file path
 fourcc = cv2.VideoWriter_fourcc(*'X264')
 filename = file_path.split("\\")
-save_path = os.path.join(folder_path, f"blind_{filename[4]}")
+save_path = os.path.join(folder_path, f"{filename[i]}")
 out = cv2.VideoWriter(save_path, fourcc, fps, (frame_w, frame_h))
 
 prev_frame = first_frame
